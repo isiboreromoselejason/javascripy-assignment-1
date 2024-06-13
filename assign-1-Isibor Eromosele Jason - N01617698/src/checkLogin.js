@@ -5,11 +5,11 @@ const account = {
 function checkLogin(username, password) {
   "use strict";
   // Check username
-  if (!username || !username.trim()) {
+  if (!username ) {
     return "No username entered.";
   }
   // Check password
-  if (!password || !password.trim()) {
+  if (!password ) {
     return "No password entered.";
   }
   // Encrypt the username and password
